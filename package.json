@@ -1,0 +1,25 @@
+{
+  "name": "api-sensor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yurikomuta/api-sensor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yurikomuta/api-sensor/issues"
+  },
+  "homepage": "https://github.com/yurikomuta/api-sensor#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
