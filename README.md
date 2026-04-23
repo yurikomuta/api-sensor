@@ -61,3 +61,24 @@ Responsável por:
 #define WIFI_PASS "SUA_SENHA"
 
 String serverName = "http://api-sensor-3nof.onrender.com/sensor";
+```
+
+
+---
+
+
+```text
++-------------+        +------------------+        +------------------+
+|   ESP32     | -----> |   API Backend    | -----> |   Data Storage    |
+| (DHT11)     | HTTP   | (Node.js)        |        | (Future: DB)      |
++-------------+        +------------------+        +------------------+
+```
+
+### Fluxo de dados
+
+1. ESP32 lê sensor DHT11
+2. Dados são enviados via HTTP GET
+3. API recebe e valida
+4. Dados são armazenados (futuro)
+5. Dados ficam disponíveis para consulta
+   
